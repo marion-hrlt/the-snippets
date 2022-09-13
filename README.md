@@ -1,2 +1,2 @@
 # the-snippets
-This is my snippets for Wordpress, CSS, JS and other tips
+This is my snippets and tips for Wordpress, CSS (SCSS), JS and others

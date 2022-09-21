@@ -44,8 +44,8 @@ add_filter('cron_schedules', 'custom_cron_job_recurrence');
  */
 function custom_cron_job()
 {
-    if (!wp_next_scheduled('delete_quotations')) {
-        wp_schedule_event(time(), 'daily', 'delete_quotations');
+    if (!wp_next_scheduled('delete_files')) {
+        wp_schedule_event(time(), 'daily', 'delete_files');
     }
 }
 add_action('wp', 'custom_cron_job');

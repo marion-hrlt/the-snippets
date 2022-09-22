@@ -11,4 +11,4 @@ function home_redirect_after_logout()
     wp_safe_redirect(home_url('/'));
     exit();
 }
-add_action('wp_logout', 'wpm_home_redirect_after_logout');
+add_action('wp_logout', 'home_redirect_after_logout');

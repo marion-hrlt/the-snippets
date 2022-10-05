@@ -9,3 +9,14 @@
         background-color: black;
     }
 }
+
+//Or directly if you want to apply it globally
+::selection {
+    color: white;
+    background-color: black;
+}
+
+::-moz-selection {
+    color: white;
+    background-color: black;
+}
